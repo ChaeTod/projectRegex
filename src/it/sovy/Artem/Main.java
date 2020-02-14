@@ -88,6 +88,7 @@ public class Main {
             if (list.get(i) != null) {
                 Matcher mt = r.matcher(list.get(i));
                 if (mt.find()){
+                    System.out.println(mt.group(0));
                     count++;
                 }
 
